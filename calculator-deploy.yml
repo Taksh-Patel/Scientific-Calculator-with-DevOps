@@ -1,0 +1,8 @@
+---
+- name: Pull Docker Image of Scientific Calculator
+  hosts: all
+  tasks:
+    - name: Pull image
+      docker_image:
+        name: takshpatel/calculatordevops
+        source: pull
