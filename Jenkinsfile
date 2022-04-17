@@ -1,10 +1,10 @@
-properties([pipelineTriggers([githubPush()])])
+//properties([pipelineTriggers([githubPush()])])
 pipeline {
 		agent any
     stages {
         stage('Git Pull') {
             steps {
-				git url: 'https://github.com/Taksh-Patel/Scientific-Calculator-with-DevOps.git', branch: 'main',
+		git url: 'https://github.com/Taksh-Patel/Scientific-Calculator-with-DevOps.git', branch: 'main',
                 credentialsId: 'git'
             }
         }
