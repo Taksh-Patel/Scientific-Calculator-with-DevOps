@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import java.util.Scanner;
-//just checking
+
 public class ScientificCalculator {
     private static final Logger log = LogManager.getLogger(ScientificCalculator.class);
 
